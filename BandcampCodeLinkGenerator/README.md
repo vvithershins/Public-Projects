@@ -8,9 +8,9 @@ abcd-efgh<br>
 1234-5678<br>
 ijkl-mnop
 
-codes.txt comes with provided example codes to show you how it should look. Delete them before you add your codes or you will generate invalid codes.
-
 You can achieve this by opening the exported codes as a txt file with notepad and copying and pasting them into codes.txt
+
+codes.txt comes with provided example codes to show you how it should look. Delete them before you add your codes or you will generate invalid codes.
 
 Enter your band name when prompted for it to generate the url for you.
 
