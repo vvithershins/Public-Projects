@@ -16,4 +16,8 @@ Enter your bandname when prompted for it (https://(bandname).bandcamp.com, ) to 
 
 The program automatically generates a list of links based off of the template, and the band-name and codes you provided, you can then easily copy and paste them.
 
-Make sure to save both main.py and codes.txt in the same folder/directory.
+Make sure to save both main.py and codes.txt and in the same folder/directory.
+
+Update 2/5/2024 5:33 PM
+
+Now generates a new file with the links so you can download it and more easily copy and paste.
