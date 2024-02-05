@@ -1,4 +1,4 @@
-You will need to generate a list of bandcamp track/album codes to use this. You will also need to know the name of your bandcamp page. For example https://bandname.bandcamp.com/
+You will need to generate a list of bandcamp track/album codes to use this. You can also use the name of your bandcamp page but this is optional. For example https://bandname.bandcamp.com/
 
  "Your account comes with 200 codes. If you need more, you can either buy them by clicking the “get more” link, below, or you can earn more by selling (we’ll add 1,000 codes for every $500 USD in sales)."
  To generate codes go to https://bandcamp.com/tools and look for Track/album Codes.
@@ -12,7 +12,7 @@ You can achieve this by opening the exported codes as a txt file with notepad an
 
 codes.txt comes with provided example codes to show you how it should look. Delete them before you add your codes or you will generate invalid codes.
 
-Enter your band name when prompted for it to generate the url for you.
+Enter your band name when prompted for it to generate the url for you or simply press enter to proceed with the default bandcamp.com/yum url instead of the custom one for your page.
 
 The program automatically generates a list of links based off of the template, and the band-name and codes you provided, you can then easily copy and paste them.
 
