@@ -1,0 +1,3 @@
+https://bandcamp.com/yum?code=1234-5678
+https://bandcamp.com/yum?code=abcd-efgh
+https://bandcamp.com/yum?code=qw09-vwed
