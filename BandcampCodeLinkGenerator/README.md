@@ -1,6 +1,9 @@
 You will need to generate a list of bandcamp track/album codes to use this. You will also need to know the name of your bandcamp page. For example https://bandname.bandcamp.com/
 
-Enter your codes into codes.txt, one on each line. example :
+ "Your account comes with 200 codes. If you need more, you can either buy them by clicking the “get more” link, below, or you can earn more by selling (we’ll add 1,000 codes for every $500 USD in sales)."
+ To generate codes go to https://bandcamp.com/tools and look for Track/album Codes.
+
+Enter your codes into codes.txt, one on each line. example :<br>
 abcd-efgh<br>
 1234-5678<br>
 ijkl-mnop
