@@ -1,9 +1,6 @@
 codes = []
-
 print("Bandcamp link generator.")
-
 print("Please put your codes in the codes.txt file, one per line ")
-
 page = input("""enter the name of your band camp page
 https://name.bandcamp.com
 """)
@@ -14,6 +11,11 @@ for line in f:
 f.close()
 
 for code in codes:
-  template = f"https://{page}.bandcamp.com/yum?code={code}"
-  print(template)
-  print()
+  if page != "":
+    template = f"https://{page}.bandcamp.com/yum?code={code}"
+    print(template)
+    print()
+  else:
+    template = f"https://bandcamp.com/yum?code={code}"
+    print(template)
+    print()
