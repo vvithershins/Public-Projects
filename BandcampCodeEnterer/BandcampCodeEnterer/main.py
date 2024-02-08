@@ -1,5 +1,3 @@
-import os
-
 codes = []
 changes = []
 f = open("codes.txt" , "r")
@@ -11,7 +9,7 @@ g = open("template.html", "r")
 temp = g.read()
 g.close()
 
-print("")
+
 if len(codes) > 1:
   for code in codes:
     #print(temp.replace("{this}" , code))
@@ -32,7 +30,15 @@ big = big.replace("{this}", stuff)
 
 big = big.replace("\n", "")
 big = big.replace("<br>", "\n")
+remove = f"""}},
+    ]
+}}"""
+replace = f"""}}
+    ]
+}}"""
+big = big.replace(f"{remove}",f"{replace}")
 print(big)
+
 
 i = open("newscript.json","a+")
 i.write(big)
