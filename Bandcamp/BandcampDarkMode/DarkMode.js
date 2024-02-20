@@ -104,3 +104,14 @@ if (pgBdElement) {
 } else {
     console.error('Element with ID "pgBd" not found');
 }
+
+var collectionItemTitles = document.querySelectorAll('div.collection-item-title');
+collectionItemTitles.forEach(function(element) {
+    element.style.color = 'red';
+});
+
+var collectionItemArtists = document.querySelectorAll('div.collection-item-artist');
+collectionItemArtists.forEach(function(element) {
+    element.style.color = 'red';
+});
+
