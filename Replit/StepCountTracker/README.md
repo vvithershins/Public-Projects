@@ -24,7 +24,7 @@ Run the script and follow the prompts to input your daily step counts and perfor
 You can personalize Step Count Tracker to your timezone to ensure accuracy when adding today's steps.
 
 `today_date = datetime.datetime.now(pytz.timezone("EST")).strftime("%-m/%d/%Y")`<br>
-                                                                                                                                   ^
+                                                                                        ^
 Change EST to your time zone.
 
 <a href = "https://www.timeanddate.com/time/zones/">🖱️Abbreviated Time Zones🖱️</a>
