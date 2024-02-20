@@ -97,3 +97,10 @@ if (durationElement) {
     console.error('Element with data-bind="text: durationStr" not found');
 }
 
+// Select the div with ID "pgBd" and set its background color to black
+var pgBdElement = document.getElementById("pgBd");
+if (pgBdElement) {
+    pgBdElement.style.backgroundColor = "black";
+} else {
+    console.error('Element with ID "pgBd" not found');
+}
