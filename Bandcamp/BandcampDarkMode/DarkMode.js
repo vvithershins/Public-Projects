@@ -115,3 +115,22 @@ collectionItemArtists.forEach(function(element) {
     element.style.color = 'red';
 });
 
+var seekControlOuterDivs = document.querySelectorAll('div.seek-control-outer');
+seekControlOuterDivs.forEach(function(element) {
+    element.style.backgroundColor = 'black';
+});
+
+var progressDivs = document.querySelectorAll('div.progress');
+progressDivs.forEach(function(element) {
+    element.style.backgroundColor = 'red';
+});
+
+var bufferDivs = document.querySelectorAll('div.buffer');
+bufferDivs.forEach(function(element) {
+    element.style.backgroundColor = 'black';
+});
+
+var progressBgDivs = document.querySelectorAll('div.progress-bg');
+progressBgDivs.forEach(function(element) {
+    element.style.backgroundColor = 'black';
+});
